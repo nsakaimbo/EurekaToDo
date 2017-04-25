@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120FBB101E9C70D900CE99E1 /* ToDoCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120FBB0F1E9C70D900CE99E1 /* ToDoCategoryRow.swift */; };
+		5F10B5311E5EDC64006DF3B8 /* EditToDoTableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10B5301E5EDC64006DF3B8 /* EditToDoTableFooter.swift */; };
+		5F9851C11E5C5495000B76C6 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9851C01E5C5495000B76C6 /* ToDo.swift */; };
+		5F9851C71E5C7906000B76C6 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9851C61E5C7906000B76C6 /* ToDoListViewModel.swift */; };
+		5F9851CA1E5C849F000B76C6 /* ToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9851C91E5C849F000B76C6 /* ToDoListTableViewCell.swift */; };
+		5F9851CC1E5C8A8C000B76C6 /* EditToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9851CB1E5C8A8C000B76C6 /* EditToDoItemViewController.swift */; };
+		5F9851CE1E5C8AC4000B76C6 /* EditToDoItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9851CD1E5C8AC4000B76C6 /* EditToDoItemViewModel.swift */; };
+		5FDA10361E5C4B4F00E51FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDA10351E5C4B4F00E51FC9 /* AppDelegate.swift */; };
+		5FDA10381E5C4B4F00E51FC9 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDA10371E5C4B4F00E51FC9 /* ToDoListViewController.swift */; };
+		5FDA103D1E5C4B4F00E51FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDA103C1E5C4B4F00E51FC9 /* Assets.xcassets */; };
+		5FDA10401E5C4B4F00E51FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDA103E1E5C4B4F00E51FC9 /* LaunchScreen.storyboard */; };
+		A90D09C033216AB1A29F9156 /* Pods_EurekaToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF49502DB2DA082AA89CDE4 /* Pods_EurekaToDo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120FBB0F1E9C70D900CE99E1 /* ToDoCategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCategoryRow.swift; sourceTree = "<group>"; };
+		2F561CC66DDC53E397791B1F /* Pods-EurekaToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaToDo/Pods-EurekaToDo.release.xcconfig"; sourceTree = "<group>"; };
+		33C6391824323CA7C97BE69B /* Pods-EurekaToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaToDo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaToDo/Pods-EurekaToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		5F10B5301E5EDC64006DF3B8 /* EditToDoTableFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditToDoTableFooter.swift; path = Views/EditToDoTableFooter.swift; sourceTree = "<group>"; };
+		5F9851C01E5C5495000B76C6 /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDo.swift; path = Model/ToDo.swift; sourceTree = "<group>"; };
+		5F9851C61E5C7906000B76C6 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListViewModel.swift; path = "View Models/ToDoListViewModel.swift"; sourceTree = "<group>"; };
+		5F9851C91E5C849F000B76C6 /* ToDoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListTableViewCell.swift; path = Views/ToDoListTableViewCell.swift; sourceTree = "<group>"; };
+		5F9851CB1E5C8A8C000B76C6 /* EditToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditToDoItemViewController.swift; sourceTree = "<group>"; };
+		5F9851CD1E5C8AC4000B76C6 /* EditToDoItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditToDoItemViewModel.swift; path = "View Models/EditToDoItemViewModel.swift"; sourceTree = "<group>"; };
+		5FDA10321E5C4B4F00E51FC9 /* EurekaToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDA10351E5C4B4F00E51FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FDA10371E5C4B4F00E51FC9 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		5FDA103C1E5C4B4F00E51FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FDA103F1E5C4B4F00E51FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FDA10411E5C4B4F00E51FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF49502DB2DA082AA89CDE4 /* Pods_EurekaToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDA102F1E5C4B4E00E51FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D09C033216AB1A29F9156 /* Pods_EurekaToDo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E67CA0EB22FF78075FEA2BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C6391824323CA7C97BE69B /* Pods-EurekaToDo.debug.xcconfig */,
+				2F561CC66DDC53E397791B1F /* Pods-EurekaToDo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F9851C21E5C549E000B76C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F9851C01E5C5495000B76C6 /* ToDo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F9851C41E5C5BDC000B76C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FDA10371E5C4B4F00E51FC9 /* ToDoListViewController.swift */,
+				5F9851CB1E5C8A8C000B76C6 /* EditToDoItemViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5F9851C51E5C76E1000B76C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F10B5301E5EDC64006DF3B8 /* EditToDoTableFooter.swift */,
+				5F9851C91E5C849F000B76C6 /* ToDoListTableViewCell.swift */,
+				120FBB0F1E9C70D900CE99E1 /* ToDoCategoryRow.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5F9851C81E5C790E000B76C6 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F9851C61E5C7906000B76C6 /* ToDoListViewModel.swift */,
+				5F9851CD1E5C8AC4000B76C6 /* EditToDoItemViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		5FDA10291E5C4B4E00E51FC9 = {
+			isa = PBXGroup;
+			children = (
+				5FDA10341E5C4B4F00E51FC9 /* EurekaToDo */,
+				5FDA10331E5C4B4F00E51FC9 /* Products */,
+				2E67CA0EB22FF78075FEA2BF /* Pods */,
+				849D3175387D73A9524B97E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDA10331E5C4B4F00E51FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDA10321E5C4B4F00E51FC9 /* EurekaToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDA10341E5C4B4F00E51FC9 /* EurekaToDo */ = {
+			isa = PBXGroup;
+			children = (
+				5FDA10351E5C4B4F00E51FC9 /* AppDelegate.swift */,
+				5F9851C51E5C76E1000B76C6 /* Views */,
+				5F9851C21E5C549E000B76C6 /* Model */,
+				5F9851C81E5C790E000B76C6 /* View Models */,
+				5F9851C41E5C5BDC000B76C6 /* View Controllers */,
+				5FDA103C1E5C4B4F00E51FC9 /* Assets.xcassets */,
+				5FDA103E1E5C4B4F00E51FC9 /* LaunchScreen.storyboard */,
+				5FDA10411E5C4B4F00E51FC9 /* Info.plist */,
+			);
+			path = EurekaToDo;
+			sourceTree = "<group>";
+		};
+		849D3175387D73A9524B97E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49502DB2DA082AA89CDE4 /* Pods_EurekaToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDA10311E5C4B4E00E51FC9 /* EurekaToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDA10441E5C4B4F00E51FC9 /* Build configuration list for PBXNativeTarget "EurekaToDo" */;
+			buildPhases = (
+				8C2FFC149C115B4C0147914E /* [CP] Check Pods Manifest.lock */,
+				5FDA102E1E5C4B4E00E51FC9 /* Sources */,
+				5FDA102F1E5C4B4E00E51FC9 /* Frameworks */,
+				5FDA10301E5C4B4E00E51FC9 /* Resources */,
+				0E26BE728D2EB18F1DAF3DBD /* [CP] Embed Pods Frameworks */,
+				0E327AFBACEDFC7EEA764814 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaToDo;
+			productName = EurekaToDo;
+			productReference = 5FDA10321E5C4B4F00E51FC9 /* EurekaToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDA102A1E5C4B4E00E51FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					5FDA10311E5C4B4E00E51FC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FDA102D1E5C4B4E00E51FC9 /* Build configuration list for PBXProject "EurekaToDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDA10291E5C4B4E00E51FC9;
+			productRefGroup = 5FDA10331E5C4B4F00E51FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDA10311E5C4B4E00E51FC9 /* EurekaToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDA10301E5C4B4E00E51FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDA10401E5C4B4F00E51FC9 /* LaunchScreen.storyboard in Resources */,
+				5FDA103D1E5C4B4F00E51FC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E26BE728D2EB18F1DAF3DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaToDo/Pods-EurekaToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E327AFBACEDFC7EEA764814 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaToDo/Pods-EurekaToDo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2FFC149C115B4C0147914E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDA102E1E5C4B4E00E51FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9851CC1E5C8A8C000B76C6 /* EditToDoItemViewController.swift in Sources */,
+				5F9851C71E5C7906000B76C6 /* ToDoListViewModel.swift in Sources */,
+				5F9851CE1E5C8AC4000B76C6 /* EditToDoItemViewModel.swift in Sources */,
+				120FBB101E9C70D900CE99E1 /* ToDoCategoryRow.swift in Sources */,
+				5F9851C11E5C5495000B76C6 /* ToDo.swift in Sources */,
+				5F10B5311E5EDC64006DF3B8 /* EditToDoTableFooter.swift in Sources */,
+				5F9851CA1E5C849F000B76C6 /* ToDoListTableViewCell.swift in Sources */,
+				5FDA10381E5C4B4F00E51FC9 /* ToDoListViewController.swift in Sources */,
+				5FDA10361E5C4B4F00E51FC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FDA103E1E5C4B4F00E51FC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDA103F1E5C4B4F00E51FC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDA10421E5C4B4F00E51FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FDA10431E5C4B4F00E51FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FDA10451E5C4B4F00E51FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C6391824323CA7C97BE69B /* Pods-EurekaToDo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EurekaToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.EurekaToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5FDA10461E5C4B4F00E51FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F561CC66DDC53E397791B1F /* Pods-EurekaToDo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EurekaToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.EurekaToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDA102D1E5C4B4E00E51FC9 /* Build configuration list for PBXProject "EurekaToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDA10421E5C4B4F00E51FC9 /* Debug */,
+				5FDA10431E5C4B4F00E51FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDA10441E5C4B4F00E51FC9 /* Build configuration list for PBXNativeTarget "EurekaToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDA10451E5C4B4F00E51FC9 /* Debug */,
+				5FDA10461E5C4B4F00E51FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDA102A1E5C4B4E00E51FC9 /* Project object */;
+}
